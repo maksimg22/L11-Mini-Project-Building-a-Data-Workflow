@@ -3,3 +3,5 @@
 # I cleaned the initial csv, found basic information about the dataset and added new column "release_day_of_week"
 
 # I saved the processed data as a new csv "spotify_data_processed.csv"
+
+# Almost all of my code has tables as outputs
