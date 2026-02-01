@@ -37,6 +37,18 @@ L11-Mini-Project-Building-a-Data-Workflow/
 - New column release_day_of_week was added.
 - Processed data was saved as spotify_data_processed.csv
 
+## How to run
+
+Use the script from crs/main.py
+
+## Output
+
+The code creates processed data file spotify_data_processed.csv which contains:
+- clean data
+- new column release_day_of_week
+
+Also, script shows: first 5 rows, shape, data types, descriptive statistics.
+
 ## Example output
 
 ```output
