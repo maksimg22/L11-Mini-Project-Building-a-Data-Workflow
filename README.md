@@ -1,7 +1,36 @@
-# In this assignment I used Spotify Global Music Dataset from kaggle.com https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025?resource=download
+# Open Data ETL Mini-Project
 
-# I cleaned the initial csv, found basic information about the dataset and added new column "release_day_of_week"
+## Project Overview
 
-# I saved the processed data as a new csv "spotify_data_processed.csv"
+This project demonstrates a simple data workflow built using Python and pandas.  
+An open dataset is extracted, transformed with multiple data-cleaning steps, and saved as a clean CSV file for future analysis or dashboard use.
 
-# Almost all of my code has tables as outputs
+The goal of this project is to practice building a small but complete data pipeline and publishing it to GitHub.
+
+## Data Source
+
+Data set used in this project was taken from https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025?resource=download
+
+## Workflow Type
+
+ETL: Extract → Transform → Load
+
+## Transformations 
+
+- The initial data set was cleaned. 
+- Basic information about the data set such as data types, shape, descriptive statistics was found.
+- New column release_day_of_week was added.
+- Processed data was saved as spotify_data_processed.csv
+
+## Project Structure
+
+L11-Mini-Project-Building-a-Data-Workflow/
+├── data/
+│ ├── raw/ # Raw dataset (optional)
+│ └── processed/
+│ └── output.csv # Final cleaned dataset
+├── src/
+│ └── main.py # ETL script
+├── README.md # Project documentation
+├── requirements.txt # Python dependencies
+└── .gitignore
