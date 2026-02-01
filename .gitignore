@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Raw data 
+data/raw/
+
+# Temporary or extra processed files
+data/processed/temp_*.csv
+
+# IDE/editor files
+.vscode/
+*.idea/
