@@ -24,6 +24,7 @@ ETL: Extract → Transform → Load
 
 ## Project Structure
 
+```text
 L11-Mini-Project-Building-a-Data-Workflow/
 ├── data/
 │ ├── raw/ # Raw dataset (optional)
@@ -34,7 +35,7 @@ L11-Mini-Project-Building-a-Data-Workflow/
 ├── README.md # Project documentation
 ├── requirements.txt # Python dependencies
 └── .gitignore
-
+```
 
 
 
